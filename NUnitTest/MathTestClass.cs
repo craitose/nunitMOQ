@@ -52,7 +52,7 @@ namespace NUnitTest
 
         [Test]
         [TestCase(10,5,5)]
-        [TestCase(10,5,1)]
+        [TestCase(6,5,1)]
         public void testSub(int a,int b, int expected)
         {
             Maths m = new Maths();
